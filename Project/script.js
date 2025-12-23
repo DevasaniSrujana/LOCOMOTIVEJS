@@ -241,6 +241,7 @@ window.addEventListener("resize", () => {
     if (scroll) scroll.update();
   }, 300);
 });
+
 document.querySelector(".footer button").addEventListener("click", () => {
   scroll.scrollTo(0);
 });
